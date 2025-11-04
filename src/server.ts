@@ -7,68 +7,71 @@ const contacts = [
 let body = '';
 
 export function startServer(port: number) {
-    const server = http.createServer((req, res) => {
-    const baseUrl = `http://${req.headers.host}${req.url}`;
-    const parsedUrl = new URL(baseUrl);
-    const params = parsedUrl.searchParams;
-    console.log('Nouvelle requête !');
-    console.log('URL demandée :', req.url);
-    const path = parsedUrl.pathname;
+    return new Promise<http.Server>((resolve) => {
+        const server = http.createServer((req, res) => {
+        const baseUrl = `http://${req.headers.host}${req.url}`;
+        const parsedUrl = new URL(baseUrl);
+        const params = parsedUrl.searchParams;
+        console.log('Nouvelle requête !');
+        console.log('URL demandée :', req.url);
+        const path = parsedUrl.pathname;
 
-    try {
-        res.setHeader('Content-Type', 'application/json');
-        if(req.url === '/') {
-            res.setHeader('Content-Type', 'text/plain');
-            res.end('Bonjour depuis Node.js !');
-            res.statusCode = 200;
-
-        } else if(req.url === '/api/contacts' && req.method === 'GET') {
-            res.end(JSON.stringify(contacts));
-            res.statusCode = 200;
-
-        } else if(req.url === '/api/contacts' && req.method === 'POST') {
-            let body2 = '';
-            req.on('data', chunk => {
-                body2 += chunk.toString();
-            });
-            req.on('end', () => {
-                try {
-                    const data = JSON.parse(body2);
-                    contacts.push(data);
-                    res.statusCode = 201;
-                    res.end(JSON.stringify({ message: 'Contact ajouté avec succès', contact: data }));
-                    
-                } catch (err) {
-                    console.error('Erreur JSON: ', err);
-                    res.statusCode = 400;
-                    res.end(JSON.stringify({error: 'Corps de requête invalide. Envoie du JSON attendu'}));
-                    
-                }
-            });
-            
-        } else if(req.method === 'GET' && path.startsWith("/api/contacts/")) {
-            const id = Number(path.split("/").pop());
-            const contact = contacts.find(c => c.id === id);
-
-            if(contact) {
+        try {
+            res.setHeader('Content-Type', 'application/json');
+            if(req.url === '/') {
+                res.setHeader('Content-Type', 'text/plain');
+                res.end('Bonjour depuis Node.js !');
                 res.statusCode = 200;
-                res.end(JSON.stringify(contact));
-                
-            } else {
-                res.statusCode = 400;
-                res.end(JSON.stringify({error: 'Contact introuvable, id: '+ id}));
-            } 
-        } else {
-            res.end('URL non-authorisée !');
-            res.statusCode = 401;
-        }
-    } catch(err) {
-        console.log("Méthode non authorisée: " + err);
-    }
-    });
 
-    server.listen(port, () => {
-    console.log('Serveur lancé sur http://localhost:3001');
+            } else if(req.url === '/api/contacts' && req.method === 'GET') {
+                res.end(JSON.stringify(contacts));
+                res.statusCode = 200;
+
+            } else if(req.url === '/api/contacts' && req.method === 'POST') {
+                let body2 = '';
+                req.on('data', chunk => {
+                    body2 += chunk.toString();
+                });
+                req.on('end', () => {
+                    try {
+                        const data = JSON.parse(body2);
+                        contacts.push(data);
+                        res.statusCode = 201;
+                        res.end(JSON.stringify({ message: 'Contact ajouté avec succès', contact: data }));
+                        
+                    } catch (err) {
+                        console.error('Erreur JSON: ', err);
+                        res.statusCode = 400;
+                        res.end(JSON.stringify({error: 'Corps de requête invalide. Envoie du JSON attendu'}));
+                        
+                    }
+                });
+                
+            } else if(req.method === 'GET' && path.startsWith("/api/contacts/")) {
+                const id = Number(path.split("/").pop());
+                const contact = contacts.find(c => c.id === id);
+
+                if(contact) {
+                    res.statusCode = 200;
+                    res.end(JSON.stringify(contact));
+                    
+                } else {
+                    res.statusCode = 400;
+                    res.end(JSON.stringify({error: 'Contact introuvable, id: '+ id}));
+                } 
+            } else {
+                res.end('URL non-authorisée !');
+                res.statusCode = 401;
+            }
+        } catch(err) {
+            console.log("Méthode non authorisée: " + err);
+        }
+        });
+
+        server.listen(port, () => {
+            console.log(`Serveur lancé sur http://localhost:${port}`);
+            resolve(server)
+        });
     });
 }
 
