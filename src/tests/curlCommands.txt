@@ -1,0 +1,17 @@
+## GET
+curl -i http://localhost:3001/api/contacts
+
+## GET by id
+curl -i http://localhost:3001/api/contacts?id=1
+
+## POST
+curl -X POST http://localhost:3001/api/contacts \
+     -d '{"id":3, "firstname": "Moine", "lastname": "Test", "email": "encore@test.fr", "address": "Rue de la RedBull"}'
+
+## PATCH
+curl -X PATCH http://localhost:3001/api/contacts/:id \
+     -H "Content-Type: application/json" \
+     -d '{"firstname": "Adibou"}'
+
+## DELETE
+curl -X DELETE http://localhost:3001/api/contacts/:id

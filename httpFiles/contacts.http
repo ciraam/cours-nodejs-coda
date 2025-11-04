@@ -1,0 +1,39 @@
+# GET 
+GET http://localhost:3001/api/contacts
+Content-Type: application/json
+
+###
+
+# GET by id
+GET http://localhost:3001/api/contacts?id=1
+Content-Type: application/json
+
+###
+
+# POST
+POST http://localhost:3001/api/contacts
+Content-Type: application/json
+
+{
+  "id": 10,
+  "firstname": "Adibou",
+  "lastname": "Test",
+  "email": "adibou@test.fr",
+  "address": "Rue du Dev"
+}
+
+###
+
+# PATCH
+PATCH http://localhost:3001/api/contacts?id=1
+Content-Type: application/json
+
+{
+  "firstname": "Bob"
+}
+
+###
+
+# DELETE
+DELETE http://localhost:3001/api/contacts?id=1
+Content-Type: application/json
