@@ -1,0 +1,25 @@
+@BASE_URL = http://localhost:3001
+
+GET {{BASE_URL}}/api/contacts
+### GET/id
+GET {{BASE_URL}}/api/contacts/1
+###
+POST {{BASE_URL}}/api/contacts
+
+{
+  "id": 5,
+  "firstname": "Durand",
+  "lastname": "Paul",
+  "email": "durand.paul@example.com",
+  "address": "456 Avenue des Champs"
+}
+### PUT
+PUT {{BASE_URL}}/api/contacts/1
+{
+  "firstname": "Durand",
+  "lastname": "Pierre",
+  "email": "durand.pierre@example.com",
+  "address": "456 Avenue des Champs"
+}
+### DELETE
+DELETE {{BASE_URL}}/api/contacts/5

@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
             }
         });
         
-    } else if(req.method === 'GET') {
+    } else if(req.method === 'GET' && req.url=== `/api/contacts?id=${params.get('id')}`) {
         const id = params.get('id'); 
         res.setHeader('Content-Type', 'application/json');
         const result = contacts.find(c => c.id === Number(id));
