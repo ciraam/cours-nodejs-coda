@@ -12,21 +12,21 @@ const server = http.createServer((req, res) => {
     const params = parsedUrl.searchParams;
     console.log('Nouvelle requête !');
     console.log('URL demandée :', req.url);
+    const path = parsedUrl.pathname;
 
   try {
+    res.setHeader('Content-Type', 'application/json');
     if(req.url === '/') {
         res.setHeader('Content-Type', 'text/plain');
         res.end('Bonjour depuis Node.js !');
         res.statusCode = 200;
 
     } else if(req.url === '/api/contacts' && req.method === 'GET') {
-        res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(contacts));
         res.statusCode = 200;
 
     } else if(req.url === '/api/contacts' && req.method === 'POST') {
         let body2 = '';
-        res.setHeader('Content-Type', 'application/json');
         req.on('data', chunk => {
             body2 += chunk.toString();
         });
@@ -34,34 +34,30 @@ const server = http.createServer((req, res) => {
             try {
                 const data = JSON.parse(body2);
                 contacts.push(data);
-                res.setHeader('Content-Type', 'application/json');
                 res.statusCode = 201;
                 res.end(JSON.stringify({ message: 'Contact ajouté avec succès', contact: data }));
                 
             } catch (err) {
                 console.error('Erreur JSON: ', err);
-                res.setHeader('Content-Type', 'application/json');
                 res.statusCode = 400;
                 res.end(JSON.stringify({error: 'Corps de requête invalide. Envoie du JSON attendu'}));
                 
             }
         });
         
-    } else if(req.method === 'GET') {
-        const id = params.get('id'); 
-        res.setHeader('Content-Type', 'application/json');
-        const result = contacts.find(c => c.id === Number(id));
+    } else if(req.method === 'GET' && path.startsWith("/api/contacts/")) {
+        const id = Number(path.split("/").pop());
+        const contact = contacts.find(c => c.id === id);
 
-        if(result) {
+        if(contact) {
             res.statusCode = 200;
-            res.end(JSON.stringify(contacts.find(c => c.id === Number(id))));
+            res.end(JSON.stringify(contact));
             
         } else {
             res.statusCode = 400;
             res.end(JSON.stringify({error: 'Contact introuvable, id: '+ id}));
         } 
     } else {
-        res.setHeader('Content-Type', 'text/plain');
         res.end('URL non-authorisée !');
         res.statusCode = 401;
     }
