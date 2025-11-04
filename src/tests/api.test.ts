@@ -7,9 +7,9 @@ let user_id: number
 describe('Test des endpoints', () => {
 
   beforeAll(() => {
-    server = startServer(3000)
+    server = startServer(3001)
     user_id = 1
-    console.log('Serveur démarré sur le port 3000')
+    console.log('Serveur démarré sur le port 3001')
   })
 
   afterAll(() => {
@@ -17,9 +17,14 @@ describe('Test des endpoints', () => {
     console.log('Serveur arrêté')
   })
 
-  it('GET /ping retourne "pong"', async () => {
-    const res = await fetch('http://localhost:3000/ping')
+  it('GET / retourne "Bonjour depuis Node.js !"', async () => {
+    const res = await fetch('http://localhost:3001/')
     const text = await res.text()
-    expect(text).toBe('pong')
+    expect(text).toBe('Bonjour depuis Node.js !')
+  })
+  it('GET /api/contacts retourne la liste des contacts', async () => {
+    const res = await fetch('http://localhost:3001/api/contacts')
+    const data = await res.json()
+    expect(Array.isArray(data)).toBe(true)
   })
 })
