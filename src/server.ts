@@ -35,6 +35,7 @@ const server = http.createServer((req, res) => {
                 const data = JSON.parse(body2);
                 contacts.push(data);
                 res.setHeader('Content-Type', 'application/json');
+                res.statusCode = 201;
                 res.end(JSON.stringify({ message: 'Contact ajouté avec succès', contact: data }));
                 
             } catch (err) {
@@ -59,7 +60,6 @@ const server = http.createServer((req, res) => {
             res.statusCode = 400;
             res.end(JSON.stringify({error: 'Contact introuvable, id: '+ id}));
         } 
-
     } else {
         res.setHeader('Content-Type', 'text/plain');
         res.end('URL non-authorisée !');
