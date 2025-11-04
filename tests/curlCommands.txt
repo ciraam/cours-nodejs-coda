@@ -1,0 +1,9 @@
+## GET
+curl -v http://localhost:3001/api/contacts
+
+## POST
+curl -X POST http://localhost:3001/api/contacts \
+     -d '{"id":3, "firstname": "Moine", "lastname": "Test", "email": "encore@test.fr", "address": "Rue de la RedBull"}'
+
+## DELETE
+curl -X DELETE http://localhost:3001/api/contacts/2
