@@ -1,12 +1,25 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, beforeAll, afterAll } from 'vitest'
+import { startServer } from '../server'
 
-// Fonction à tester
-function addition(a: number, b: number) {
-  return a + b
-}
+let server: any
+let user_id: number
 
-describe('addition', () => {
-  it('additionne deux nombres', () => {
-    expect(addition(2, 3)).toBe(5)
+describe('Test des endpoints', () => {
+
+  beforeAll(() => {
+    server = startServer(3000)
+    user_id = 1
+    console.log('Serveur démarré sur le port 3000')
+  })
+
+  afterAll(() => {
+    server.close()
+    console.log('Serveur arrêté')
+  })
+
+  it('GET /ping retourne "pong"', async () => {
+    const res = await fetch('http://localhost:3000/ping')
+    const text = await res.text()
+    expect(text).toBe('pong')
   })
 })
