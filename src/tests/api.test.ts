@@ -30,4 +30,10 @@ describe('API /api/contacts (serveur natif)', () => {
     const res = await req.json()
     expect(res).toEqual({id: 1, firstname: 'Léo', lastname: 'Bé', email: 'test@test.fr', address: 'Rue de la Monster'})
   })
+  it('DELETE by id /api/contacts/:id', async () => {
+    const req = await fetch(`http://localhost:${port}/api/contacts/${user_id}`, {
+      method: 'DELETE',
+    })
+    expect(req.status).toBe(204)
+  })
 })

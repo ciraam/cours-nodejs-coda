@@ -22,4 +22,4 @@ PUT {{BASE_URL}}/api/contacts/1
   "address": "456 Avenue des Champs"
 }
 ### DELETE
-DELETE {{BASE_URL}}/api/contacts/5
+DELETE {{BASE_URL}}/api/contacts/1

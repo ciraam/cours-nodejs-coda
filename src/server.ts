@@ -59,6 +59,12 @@ export function startServer(port: number) {
                     res.statusCode = 400;
                     res.end(JSON.stringify({error: 'Contact introuvable, id: '+ id}));
                 } 
+            } else if(req.method === 'DELETE' && path.startsWith("/api/contacts/")) {
+                const id = Number(path.split("/").pop());
+                const contact = contacts.find(c => c.id === id);
+                contacts.splice(contacts.indexOf(contact!), 1);
+                res.statusCode = 204;
+                res.end();
             } else {
                 res.end('URL non-authorisée !');
                 res.statusCode = 401;
@@ -74,5 +80,3 @@ export function startServer(port: number) {
         });
     });
 }
-
-startServer(3001);
