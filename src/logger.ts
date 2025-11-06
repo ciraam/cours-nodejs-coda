@@ -1,37 +1,42 @@
-import pino, { destination } from 'pino';
+import pino from 'pino';
 import path from 'path';
-
+// Configuration du logger
 const logger = pino({
-  base: {
-    service: 'test-api',
-  },
+  level: process.env.LOG_LEVEL || "info",
   transport: {
     targets: [
       {
-        target: 'pino-pretty',
-        level: 'debug',
+        target: "pino-pretty",
+        level: "info",
         options: {
           colorize: true,
-          // translateTime: 'HH:MM:ss',  
-          ignore: 'pid,hostname',
-          singleLine: true,           
-          messageFormat: '{levelLabel} - {msg}',  // Format simple
-        }
+          translateTime: "SYS:standard",
+          ignore: "pid,hostname",
+        },
       },
+
       {
-        target: 'pino-pretty',
-        level: 'debug',
+        target: "pino/file",
+        level: "info",
         options: {
-          colorize: true,
-          // translateTime: 'HH:MM:ss',  
-          ignore: 'pid,hostname',
-          singleLine: true,            
-          messageFormat: '{levelLabel} - {msg}',  // Format simple
-          destination: path.join(process.cwd(), 'logs/file.log')
-        }
-      }
-    ]
-  }
+          destination: path.join(process.cwd(), "logs", "app.log"),
+          mkdir: true,
+          
+        },
+      },
+
+      {
+        target: "pino/file",
+        level: "error",
+        options: {
+          destination: path.join(process.cwd(), "logs", "erreurs.log"),
+          mkdir: true,
+        },
+      },
+    ],
+  },
 });
 
-export default logger;
+
+
+export { logger };

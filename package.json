@@ -14,11 +14,18 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.5",
+<<<<<<< HEAD
+=======
+    "@types/express-pino-logger": "^4.0.6",
+>>>>>>> 23652854a7cb48d66bea9aa0deee0f382c98e1e1
     "@types/node": "^24.10.0",
     "@types/supertest": "^6.0.3",
     "@vitest/ui": "^4.0.6",
     "pino-pretty": "^13.1.2",
+<<<<<<< HEAD
     "supertest": "^7.1.4",
+=======
+>>>>>>> 23652854a7cb48d66bea9aa0deee0f382c98e1e1
     "ts-node": "^10.9.2",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
@@ -26,7 +33,13 @@
   },
   "dependencies": {
     "express": "^5.1.0",
+<<<<<<< HEAD
     "pino": "^10.1.0",
     "pino-http": "^11.0.0"
+=======
+    "express-pino-logger": "^7.0.0",
+    "pino": "^10.1.0",
+    "supertest": "^7.1.4"
+>>>>>>> 23652854a7cb48d66bea9aa0deee0f382c98e1e1
   }
 }
