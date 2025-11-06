@@ -1,6 +1,5 @@
 import pino from 'pino';
 import path from 'path';
-// Configuration du logger
 const logger = pino({
   level: process.env.LOG_LEVEL || "info",
   transport: {

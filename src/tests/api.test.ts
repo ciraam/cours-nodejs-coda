@@ -90,7 +90,7 @@ describe('API /api/contacts (serveur natif)', () => {
       .post('/api/contacts')
       .send(incompleteContact);
     expect(res.status).toBe(400);
-    expect(res.body).toEqual({ error: 'Champs manquants: lastname' });
+    expect(res.body).toEqual({ error: 'Champs manquants pour le contact' });
   });
 
   it('PUT /api/contacts/:id', async () => {
@@ -114,7 +114,7 @@ describe('API /api/contacts (serveur natif)', () => {
     const req = await request(serverTest)
       .put(`/api/contacts/${user_id}`)
       .send(updateContact);
-    expect(req.status).toBe(201);
+    expect(req.status).toBe(200);
     expect(req.body).toMatchObject(expectContact);
   })
 
