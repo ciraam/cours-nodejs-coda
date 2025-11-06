@@ -9,10 +9,20 @@
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/express-pino-logger": "^4.0.6",
     "@types/node": "^24.10.0",
+    "@types/supertest": "^6.0.3",
     "@vitest/ui": "^4.0.6",
+    "pino-pretty": "^13.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "vitest": "^4.0.6"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-pino-logger": "^7.0.0",
+    "pino": "^10.1.0",
+    "supertest": "^7.1.4"
   }
 }
