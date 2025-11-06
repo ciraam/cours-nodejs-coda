@@ -39,3 +39,172 @@
 {"level":50,"time":1762419137164,"pid":24272,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
 {"level":50,"time":1762419137181,"pid":24272,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
 {"level":50,"time":1762419137192,"pid":24272,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419329456,"pid":4464,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419329472,"pid":4464,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419383581,"pid":2724,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419383597,"pid":2724,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419383599,"pid":2724,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419383609,"pid":2724,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419388246,"pid":12372,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419388260,"pid":12372,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419388263,"pid":12372,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419388273,"pid":12372,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419395801,"pid":11892,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419395818,"pid":11892,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419395820,"pid":11892,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419395830,"pid":11892,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419438442,"pid":16112,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419438458,"pid":16112,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419438461,"pid":16112,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419438471,"pid":16112,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419457119,"pid":22348,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419457136,"pid":22348,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419457138,"pid":22348,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419457145,"pid":22348,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419528290,"pid":18396,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419528307,"pid":18396,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419528310,"pid":18396,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419528319,"pid":18396,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419606120,"pid":6284,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419606138,"pid":6284,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419606141,"pid":6284,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419606148,"pid":6284,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419633048,"pid":13996,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419633065,"pid":13996,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419633068,"pid":13996,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419633076,"pid":13996,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419662184,"pid":22868,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419662202,"pid":22868,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419662205,"pid":22868,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419662211,"pid":22868,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419732740,"pid":3536,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419732755,"pid":3536,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419732757,"pid":3536,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419732765,"pid":3536,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419734501,"pid":8512,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419734518,"pid":8512,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419734520,"pid":8512,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419734527,"pid":8512,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419914922,"pid":23664,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419914939,"pid":23664,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419914941,"pid":23664,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419914949,"pid":23664,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762419990809,"pid":24700,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762419990824,"pid":24700,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762419990826,"pid":24700,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762419990834,"pid":24700,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420055669,"pid":22616,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420055686,"pid":22616,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420055690,"pid":22616,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420055693,"pid":22616,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420055699,"pid":22616,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420152384,"pid":19620,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420152399,"pid":19620,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420152401,"pid":19620,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420152404,"pid":19620,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420152410,"pid":19620,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420181174,"pid":4248,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420181190,"pid":4248,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420181193,"pid":4248,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420181196,"pid":4248,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420181204,"pid":4248,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420184716,"pid":25248,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420184732,"pid":25248,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420184734,"pid":25248,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420184736,"pid":25248,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420184743,"pid":25248,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420191803,"pid":24912,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420191819,"pid":24912,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420191821,"pid":24912,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420191824,"pid":24912,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420191833,"pid":24912,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420231220,"pid":14380,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420231237,"pid":14380,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420231239,"pid":14380,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420231241,"pid":14380,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420231249,"pid":14380,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420343353,"pid":14984,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420343369,"pid":14984,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420343372,"pid":14984,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420343374,"pid":14984,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420343383,"pid":14984,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420359931,"pid":17716,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420359948,"pid":17716,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420359950,"pid":17716,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420359960,"pid":17716,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420386271,"pid":4860,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420386287,"pid":4860,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420386290,"pid":4860,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420386294,"pid":4860,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420400254,"pid":11456,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420400271,"pid":11456,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420457349,"pid":3332,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420457366,"pid":3332,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420457369,"pid":3332,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420457371,"pid":3332,"hostname":"LeoNeuzillet","msg":"Bad Request: Missing id parameter"}
+{"level":50,"time":1762420457379,"pid":3332,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420468100,"pid":11460,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420468115,"pid":11460,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420468118,"pid":11460,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420468125,"pid":11460,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420492401,"pid":21104,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420492418,"pid":21104,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420492420,"pid":21104,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420492431,"pid":21104,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762420786186,"pid":16800,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762420786202,"pid":16800,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762420786204,"pid":16800,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762420786212,"pid":16800,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421089593,"pid":23012,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421089608,"pid":23012,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421089610,"pid":23012,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421089618,"pid":23012,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421103510,"pid":932,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421103529,"pid":932,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421106856,"pid":9096,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421106873,"pid":9096,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421106875,"pid":9096,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421131306,"pid":24152,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421131322,"pid":24152,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421131324,"pid":24152,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421131335,"pid":24152,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421152487,"pid":10264,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421152504,"pid":10264,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421152506,"pid":10264,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421152514,"pid":10264,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421193818,"pid":4244,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421193835,"pid":4244,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421193837,"pid":4244,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421193844,"pid":4244,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421208821,"pid":2876,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421208837,"pid":2876,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421208840,"pid":2876,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421208842,"pid":2876,"hostname":"LeoNeuzillet","msg":"Contact with id 1 not found for update"}
+{"level":50,"time":1762421208849,"pid":2876,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421259005,"pid":13568,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421259020,"pid":13568,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421259027,"pid":13568,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421287417,"pid":21180,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421287436,"pid":21180,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421287439,"pid":21180,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421287442,"pid":21180,"hostname":"LeoNeuzillet","msg":"Contact with id 1 not found for update"}
+{"level":50,"time":1762421287450,"pid":21180,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421313769,"pid":16708,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421313786,"pid":16708,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421313788,"pid":16708,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421313790,"pid":16708,"hostname":"LeoNeuzillet","msg":"Contact with id 1 not found for update"}
+{"level":50,"time":1762421313799,"pid":16708,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421338849,"pid":21228,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421338865,"pid":21228,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421338868,"pid":21228,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421338876,"pid":21228,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421373227,"pid":2808,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421373243,"pid":2808,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421373247,"pid":2808,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421373254,"pid":2808,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421383475,"pid":1196,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421383490,"pid":1196,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
+{"level":50,"time":1762421383493,"pid":1196,"hostname":"LeoNeuzillet","msg":"Missing fields in contact creation"}
+{"level":50,"time":1762421383502,"pid":1196,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found for deletion"}
+{"level":50,"time":1762421398030,"pid":15756,"hostname":"LeoNeuzillet","msg":"Contact with id 9999 not found"}
+{"level":50,"time":1762421398046,"pid":15756,"hostname":"LeoNeuzillet","msg":"Contact with id 1 already exists"}
