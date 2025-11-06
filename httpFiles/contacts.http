@@ -5,7 +5,7 @@ Content-Type: application/json
 ###
 
 # GET by id
-GET http://localhost:3001/api/contacts?id=1
+GET http://localhost:3001/api/contacts/2
 Content-Type: application/json
 
 ###
@@ -24,16 +24,20 @@ Content-Type: application/json
 
 ###
 
-# PATCH
-PATCH http://localhost:3001/api/contacts?id=1
+# PUT
+PUT http://localhost:3001/api/contacts/2
 Content-Type: application/json
 
 {
-  "firstname": "Bob"
+  "id": 2,
+  "firstname": "John",
+  "lastname": "Doe",
+  "email": "john.doe@test.fr",
+  "address": "42 rue de Coda"
 }
 
 ###
 
 # DELETE
-DELETE http://localhost:3001/api/contacts?id=1
+DELETE http://localhost:3001/api/contacts/1
 Content-Type: application/json
